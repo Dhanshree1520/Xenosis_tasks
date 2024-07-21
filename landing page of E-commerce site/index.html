@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Corner</title>
+    <link rel="shortcut icon" href="./public/images/favicon.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MOBILE NAV --> 
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home ">
+                <i class="bi bi-house"></i>
+            </a>
+        </div>
+        
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class="bi bi-people-fill"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class="bi bi-menu-app"></i>   
+           </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonials">
+                <i class="bi bi-chat-quote-fill"></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+
+    <!-- Back to top BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bi bi-chevron-bar-up"></i>
+    </a>
+    <!-- End to BTN -->
+    
+    <!-- Top Navigation -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    Foodcorner
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+                <a href="#testimonials">
+                    <div class="menu-item">
+                        Testimonials
+                    </div>
+                </a>
+            </div>
+            <div class="right-menu">
+                <div class="cart-btn">
+                    <i class="bi bi-cart-fill"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Navigation -->
+    
+    <!-- Section Home -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed" style="background-image: url(public/images/background-img\(1\).jpeg) ;" >
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll">
+                            FoodCorner
+                        </h1>
+                        <p class="tagline left-to-right play-on-scroll delay-2 ">"FOOD IS NOT RATIONAL. FOOD IS CULTURE, HABIT, CRAVING AND IDENTITY."</p>
+                        <div class="left-to-right  play-on-scroll delay-4 ">
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End section Home -->
+    <!-- About portion starts here -->
+    <section class="about fullheight align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="public/images/about(--img--).png"  class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center" >
+                    <div class="about-slogan right-to-left play-on-scroll start">
+                        <h3><span class="primary-color">We</span> create <span class="primary-color">delicious</span> memories for <span class="primary-color">you</span></h3>
+                        <p>Experience the Splendor of Memories - Delight in the grandeur of our unforgettable flavors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End about -->
+    <!-- Menu Section -->
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu-section" style="background-image: url(public/images/about-img.jpg) ;">
+        <div class="container">
+            <div class="food-menu">
+                <h1>What will <span class="primary-color">you </span>eat today?</h1>
+                <p>Chase the Flavour Today Seriously tasty, seriously good for you. Think different, eat Differently Don`t dream it. Eat it. Joy the instant Food Minutes Eat What You Love, Save the Planet. Fast & Fresh.</p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll">
+                        <button class="active " data-food-type="all">
+                            All Food
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="Wraps>">
+                            Wraps
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="Sandwiche">
+                            Sandwiches
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-6">
+                        <button data-food-type="Gourmet-Sandwiches>">
+                            Gourmet Sandwiches
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="dessert">
+                            Desserts & Beverages
+                        </button>
+                    </div>
+                </div>
+                <div class="food-item-wrap">
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/img[1].png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Kolkata Paneer Wrap
+                                    </h3>
+                                    <span>
+                                        &#8377;149
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--  -->
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/wrap\(3\).png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Two Bean Corn Quesadilla
+                                    </h3>
+                                    <span>
+                                        &#8377;149
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--  -->
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/sandwich\(1\).png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Spinach Corn Whole Wheat Sandwich
+                                    </h3>
+                                    <span>
+                                        &#8377;119
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/sandwich\ \(2\).png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Jerk Cottage Cheese Sandwich
+                                    </h3>
+                                    <span>
+                                        &#8377;99
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!--  -->
+                     <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/GS\(1\).png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Bbq Grill Paneer Sandwich
+                                    </h3>
+                                    <span>
+                                        &#8377;149
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/GS\(2\).png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Morrocon Cottage Cheese Subwich
+                                    </h3>
+                                    <span>
+                                        &#8377;149
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/dessert.png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Triple Fantasy Cake
+                                    </h3>
+                                    <span>
+                                        &#8377;99
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="food-item">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img" style="background-image: url(public/images/drink.png);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Mint Lemonade
+                                    </h3>
+                                    <span>
+                                        &#8377;79
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bi bi-cart-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div>    
+            </div>            
+        </div>
+    </section>
+    <!-- End menu section -->
+    <!-- Start of Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>It's not just dining, but an amazing overall experience. Every dish was unique and top notch. Lots of sake options too... </p>
+                            <div class="review-img bg-img" style="background-image: url(public/images/cust.png);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Kayla Rose</h3>
+                        </div>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p>Fabulous, fantastic and everything I had imagined. The food was phenomenal and resonably priced. The ambiance and decor was upscale and .....</p>
+                                <div class="review-img bg-img" style="background-image: url(public/images/cust-2.png);">
+    
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3>Jack Trade</h3>
+                            </div>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>It's not just dining, but an amazing overall experience. Every dish was unique and top notch. Lots of sake options too...</p>
+                            <div class="review-img bg-img" style="background-image: url(public/images/cust.png);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>Riya </h3>
+                        </div>
+                        <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Testimonials -->
+    <!-- Footer Section -->
+    <section class="footer bg-img" style="background: rgba(0,0,0,0.1);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h3>Foodcorner</h3>
+                    <br>
+                    <p>"FOOD IS NOT RATIONAL. FOOD IS CULTURE, HABIT, CRAVING AND IDENTITY."</p>
+                    <br>
+                    <p>Email: freshfood@email.com</p>
+                    <p>Phone: +91 1236547890</p>
+                    <p>website: Freshfood.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h3>About us</h3>
+                    <br>
+                    <p>
+                        <a href="#">Chefs</a>
+                    </p>
+                    <p>
+                        <a href="#">Menu</a>
+                    </p>
+                    <p>
+                        <a href="#">Testimonials</a>
+                    </p>
+
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h3>Get the freshest Foodcorner news</h3>
+                    <br>
+                    <div class="input-group">
+                        <input type="textbox" placeholder="Enter Your Email" >
+                        <button>Subscribe</button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Footer Section -->
+
+    <script src="script.js"></script>
+</body>
+</html>
